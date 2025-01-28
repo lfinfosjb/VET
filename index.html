@@ -1,0 +1,156 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Veterinária Bom Jesus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #localizacao {
+            padding: 6rem 0;
+            background-color: var(--background-color);
+        }
+        .mapa-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .mapa-container iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        .endereco {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/WhatsApp Image 2025-01-28 at 15.42.39.jpeg" alt="Bom Jesus Veterinária Logo" width="50" height="50">
+                <h1>Bom Jesus Veterinária</h1>
+            </div>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Cuidado Profissional para seu Melhor Amigo</h2>
+                <div class="hero-buttons">
+                    <a href="#servicos" class="cta-button">Nossos Serviços</a>
+                    <a href="https://wa.me/5516990502191" class="cta-button cta-button-secondary" target="_blank">Agende Aqui</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+            </div>
+            <div class="servicos-grid">
+                <div class="servico" data-service="Consultas Gerais">
+                    <div class="servico-icon">📋</div>
+                    <h3>Consultas Gerais</h3>
+                    <p>Exames completos e avaliação detalhada de saúde</p>
+                </div>
+                <div class="servico" data-service="Vacinação">
+                    <div class="servico-icon">💉</div>
+                    <h3>Vacinação</h3>
+                    <p>Calendário de vacinação completo e atualizado</p>
+                </div>
+                <div class="servico" data-service="Cirurgias">
+                    <div class="servico-icon">🏥</div>
+                    <h3>Cirurgias</h3>
+                    <p>Procedimentos cirúrgicos com tecnologia avançada</p>
+                </div>
+                <div class="servico" data-service="Exames Laboratoriais">
+                    <div class="servico-icon">🔬</div>
+                    <h3>Exames Laboratoriais</h3>
+                    <p>Diagnósticos precisos com análises especializadas</p>
+                </div>
+                <div class="servico" data-service="Banho e Tosa">
+                    <div class="servico-icon">🛁</div>
+                    <h3>Banho e Tosa</h3>
+                    <p>Higiene e embelezamento profissional</p>
+                </div>
+                <div class="servico" data-service="Raio-x">
+                    <div class="servico-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="var(--primary-color)">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14h-9v-2h9v2zm0-4h-9V8h9v4z"/>
+                        </svg>
+                    </div>
+                    <h3>Raio-x</h3>
+                    <p>Diagnóstico por imagem de alta precisão</p>
+                </div>
+                <div class="servico" data-service="Ultrassom">
+                    <div class="servico-icon">🔍</div>
+                    <h3>Ultrassom</h3>
+                    <p>Exames ultrassonográficos detalhados</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="section-header">
+                <h2>Sobre Nossa Clínica</h2>
+            </div>
+            <div class="sobre-content">
+                <p>A Clínica Bom Jesus Veterinária é um centro especializado em cuidar da saúde e bem-estar dos animais de estimação, oferecendo serviços de excelência e com um atendimento acolhedor e dedicado. Localizada em São Joaquim da barra-SP.</p>
+                
+                <p>Além de contar com uma estrutura moderna e equipada com tecnologia de ponta, a Clínica Bom Jesus Veterinária se destaca pelo carinho e respeito com que trata cada animal, proporcionando um ambiente seguro e tranquilo.</p>
+                
+                <p>A missão da Clínica Bom Jesus é garantir a saúde e o bem-estar dos pets, com responsabilidade, ética e humanização no atendimento. Com o compromisso de sempre oferecer um atendimento de qualidade, a clínica é referência para tutores que buscam profissionais confiáveis e comprometidos com a saúde dos seus animais.</p>
+                
+                <p>Seja para uma simples consulta ou um atendimento especializado, a Clínica Bom Jesus Veterinária está preparada para ajudar o seu pet a viver com mais qualidade e saúde.</p>
+            </div>
+        </section>
+
+        <section id="localizacao">
+            <div class="section-header">
+                <h2>Nossa Localização</h2>
+            </div>
+            <div class="mapa-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.981997148817!2d-47.86249902581016!3d-20.58612098068155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bad1f6c16a9bcb%3A0x4a1b7bca!2sR.%20Maranhão%2C%201954%20-%20Centro%2C%20S%C3%A3o%20Joaquim%20da%20Barra%20-%20SP%2C%2014600-000!5e0!3m2!1spt-BR!2sbr!4v1706839833915!5m2!1spt-BR!2sbr" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <div class="endereco">
+                    Rua Maranhão, 1954 - Centro, São Joaquim da Barra - SP, CEP 14600-000
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>2025 Bom Jesus Veterinária - CREATED BY LFINFO_SJB</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/15Ua5Eub98/?mibextid=wwXIfr" target="_blank">Facebook</a>
+                <a href="https://wa.me/5516990502191" target="_blank" class="whatsapp-link">
+                    <img src="/123741.png" alt="WhatsApp Logo" class="whatsapp-icon">
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
